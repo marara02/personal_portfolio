@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { AnimatedBackground } from 'animated-backgrounds';
+import Navigation from './navigation/nav';
+import SocialMediaButtons from './components/button';
+import "./components/main.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AnimatedBackground animationName="starryNight" />
+      {
+       <div className="app">
+       <header className="app-header">
+         <SocialMediaButtons/>
+         <Navigation />
+       </header>
+       <div className="centered">
+       Hi, there <br />
+      I'm Marzhan, developer and scientist
+      </div>
+     </div>
+      }
     </div>
   );
 }
