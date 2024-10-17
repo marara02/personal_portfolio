@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marara02/personal_portfolio/static/css/main.01257944.css",
+    "main.js": "/marara02/personal_portfolio/static/js/main.2b92c31b.js",
+    "static/js/453.d9d7ec0b.chunk.js": "/marara02/personal_portfolio/static/js/453.d9d7ec0b.chunk.js",
+    "index.html": "/marara02/personal_portfolio/index.html",
+    "main.01257944.css.map": "/marara02/personal_portfolio/static/css/main.01257944.css.map",
+    "main.2b92c31b.js.map": "/marara02/personal_portfolio/static/js/main.2b92c31b.js.map",
+    "453.d9d7ec0b.chunk.js.map": "/marara02/personal_portfolio/static/js/453.d9d7ec0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01257944.css",
+    "static/js/main.2b92c31b.js"
+  ]
+}
